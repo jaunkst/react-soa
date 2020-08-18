@@ -1,0 +1,51 @@
+{
+  "npmScope": "example",
+  "affected": {
+    "defaultBase": "master"
+  },
+  "implicitDependencies": {
+    "workspace.json": "*",
+    "package.json": {
+      "dependencies": "*",
+      "devDependencies": "*"
+    },
+    "tsconfig.base.json": "*",
+    "tslint.json": "*",
+    "nx.json": "*"
+  },
+  "tasksRunnerOptions": {
+    "default": {
+      "runner": "@nrwl/workspace/tasks-runners/default",
+      "options": {
+        "cacheableOperations": ["build", "lint", "test", "e2e"]
+      }
+    }
+  },
+  "projects": {
+    "example-react-client": {
+      "tags": []
+    },
+    "example-react-client-e2e": {
+      "tags": [],
+      "implicitDependencies": ["example-react-client"]
+    },
+    "example-api": {
+      "tags": []
+    },
+    "frontend-components": {
+      "tags": []
+    },
+    "frontend-utils": {
+      "tags": []
+    },
+    "frontend-store": {
+      "tags": []
+    },
+    "frontend-stores": {
+      "tags": []
+    },
+    "isomorphic-models": {
+      "tags": []
+    }
+  }
+}

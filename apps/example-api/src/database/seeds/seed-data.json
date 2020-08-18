@@ -1,0 +1,188 @@
+[
+  {
+    "name": "Sample Business #1",
+    "addressLine1": "1234 Fake St",
+    "addressLine2": "Suite 500",
+    "city": "Denver",
+    "stateAbbr": "CO",
+    "postal": "80210",
+    "businessHours": [
+      {
+        "dayOfWeek": 0,
+        "open": 9,
+        "close": 17
+      },
+      {
+        "dayOfWeek": 1,
+        "open": 9,
+        "close": 17
+      },
+      {
+        "dayOfWeek": 2,
+        "open": 9,
+        "close": 17
+      },
+      {
+        "dayOfWeek": 3,
+        "open": 9,
+        "close": 17
+      },
+      {
+        "dayOfWeek": 4,
+        "open": 9,
+        "close": 17
+      }
+    ],
+    "operatingCities": [
+      "Denver",
+      "Lakewood",
+      "Thornton",
+      "Golden",
+      "Arvada",
+      "Centennial",
+      "Parker"
+    ],
+    "workTypes": [
+      "Maid Service",
+      "House Cleaning",
+      "Moving Services"
+    ],
+    "reviews": [
+      {
+        "ratingScore": 4.5,
+        "customerComment": "Use them weekly to clean our home. Do a great job every time"
+      },
+      {
+        "ratingScore": 4,
+        "customerComment": "Helped us move homes, very timely"
+      },
+      {
+        "ratingScore": 4,
+        "customerComment": "On time, did a good job"
+      }
+    ]
+  },
+  {
+    "name": "Sample Business #2",
+    "addressLine1": "1234 Foobar St",
+    "city": "Denver",
+    "stateAbbr": "CO",
+    "postal": "80201",
+    "businessHours": [
+      {
+        "dayOfWeek": 1,
+        "open": 10,
+        "close": 19
+      },
+      {
+        "dayOfWeek": 2,
+        "open": 9,
+        "close": 19
+      },
+      {
+        "dayOfWeek": 3,
+        "open": 10,
+        "close": 19
+      },
+      {
+        "dayOfWeek": 4,
+        "open": 9,
+        "close": 19
+      },
+      {
+        "dayOfWeek": 5,
+        "open": 10,
+        "close": 19
+      },
+      {
+        "dayOfWeek": 6,
+        "open": 9,
+        "close": 21
+      }
+    ],
+    "operatingCities": [
+      "Denver",
+      "Thornton",
+      "Golden",
+      "Arvada",
+      "Centennial",
+      "Parker"
+    ],
+    "workTypes": [
+      "Maid Service",
+      "House Cleaning",
+      "Moving Services",
+      "Packing"
+    ],
+    "reviews": [
+      {
+        "ratingScore": 4,
+        "customerComment": "Move out cleaning"
+      },
+      {
+        "ratingScore": 2,
+        "customerComment": "Broke our dishes because they didn't pack right"
+      },
+      {
+        "ratingScore": 5
+      }
+    ]
+  },
+  {
+    "name": "Sample Business #3",
+    "addressLine1": "23456 5th Ave",
+    "addressLine2": "Suite A",
+    "city": "Henderson",
+    "stateAbbr": "CO",
+    "postal": "80640",
+    "businessHours": [
+      {
+        "dayOfWeek": 1,
+        "open": 8,
+        "close": 18
+      },
+      {
+        "dayOfWeek": 2,
+        "open": 8,
+        "close": 18
+      },
+      {
+        "dayOfWeek": 3,
+        "open": 8,
+        "close": 18
+      },
+      {
+        "dayOfWeek": 4,
+        "open": 8,
+        "close": 18
+      },
+      {
+        "dayOfWeek": 5,
+        "open": 8,
+        "close": 18
+      },
+      {
+        "dayOfWeek": 6,
+        "open": 8,
+        "close": 18
+      }
+    ],
+    "operatingCities": [
+      "Denver",
+      "Commerce City",
+      "Thornton",
+      "Henderson",
+      "Northglenn"
+    ],
+    "workTypes": [
+      "Packing",
+      "Moving Services"
+    ],
+    "reviews": [
+      {
+        "ratingScore": 5,
+        "customerComment": "Helped us move across the country, they're great!"
+      }
+    ]
+  }
+]

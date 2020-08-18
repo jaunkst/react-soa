@@ -1,0 +1,12 @@
+{
+  "presets": [
+    "@nrwl/web/babel",
+    ["@babel/preset-typescript", { "onlyRemoveTypeImports": true }]
+  ],
+  "babelrcRoots": ["*"],
+  "plugins": [
+    ["@babel/plugin-proposal-decorators", { "legacy": true }],
+    "babel-plugin-parameter-decorator",
+    "babel-plugin-transform-typescript-metadata"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "jsx": "react",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "resolveJsonModule": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "typeRoots": ["node_modules/@types"],
+    "lib": ["es2017", "dom"],
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "ormconfig": ["ormconfig.js"],
+      "@libs/backend/utils": ["libs/backend/utils/index.ts"],
+      "@libs/frontend/components": ["libs/frontend/components/src/index.ts"],
+      "@libs/frontend/utils": ["libs/frontend/utils/src/index.ts"],
+      "@libs/frontend/stores": ["libs/frontend/stores/src/index.ts"],
+      "@libs/isomorphic/models": ["libs/isomorphic/models/src/index.ts"]
+    },
+    "types": ["reflect-metadata"]
+  },
+  "exclude": ["node_modules", "tmp"]
+}
